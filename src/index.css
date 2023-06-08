@@ -1,0 +1,25 @@
+.app {
+  /* Common styles for both modes */
+  padding: 20px;
+}
+
+.app.light{
+  /* Light mode styles */
+  background-color: #ffffff;
+  color: #000000;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app.dark{
+  /* Dark mode styles */
+  background-color: #222222;
+  color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+body{
+  margin: 0px;
+}
